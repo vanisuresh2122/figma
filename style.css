@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 body{
+    overflow-x: hidden;
   font-family: "DM Sans", sans-serif;
 }
 .container{
@@ -366,6 +367,20 @@ letter-spacing: 0%;
   align-items: left;
 
 }
+
+.in button{
+     padding: 10px 25px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #A9BE66;
+    color: white;
+    text-align: left;
+     font-family: "DM Sans", sans-serif;
+    border: none;
+    margin-left: 100px;
+}
+
 .imgs{
     width: 100%;
     position: relative;
@@ -438,6 +453,7 @@ letter-spacing: 0%;
         display: block;
         padding: 12px 0;
         font-size: 18px;
+        text-align: center;
     }
 
     .nav-left button {
@@ -475,7 +491,8 @@ letter-spacing: 0%;
     .images {
         flex-direction: column;
         width: 100%;
-        padding: 50px 0;
+        padding: 40px 0;
+        align-items: center;
     }
 
     .left, .right {
@@ -483,7 +500,9 @@ letter-spacing: 0%;
         /*position: static;*/
         margin-bottom: 20px;
     }
-    .left
+   /* .left{
+        width: 150px;
+    }*/
     .nav-right img {
         width: 200px;
     }
@@ -501,22 +520,23 @@ letter-spacing: 0%;
      .features-cards {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         gap: 40px;
     }
 
     .card {
-        width: 70%;
-        padding: 40px;
+        width: 90%;
+        padding: 70px;
     }
     
 
     .features-cards1{
          flex-direction: column;
         align-items: center;
-        gap: 40px;
+        gap: 20px;
     }
     .card1{
-        width: 70%;
+        width: 100%;
         padding: 40px;
     }
     .card1 p{
@@ -539,7 +559,7 @@ letter-spacing: 0%;
 
     .card1,
     .features-cards2 {
-        width: 80%;
+        width: 90%;
     }
 
     .card3 p {
@@ -553,16 +573,16 @@ letter-spacing: 0%;
         padding: 0 20px;
     }
     .para3 h1 {
-        width: 80%;
+        width: 100%;
         font-size: 30px;
         height: auto;
         padding: 30px 5px;
     }
 
     .para3 p {
-        width: 80%;
+        width: 100%;
         font-size: 14px;
-        padding: 20px 30px;
+        padding: 10px 30px;
     }
 
     .wrapper {
@@ -573,16 +593,19 @@ letter-spacing: 0%;
         width: 100%;
     }
     .para4 h1 {
-        width: 80%;
+        width: 100%;
         font-size: 25px;
         height: auto;
-        padding: 30px 5px;
+        /*padding: 30px 5px;*/
     }
 
     .para4 p {
-        width: 80%;
-        font-size: 14px;
-        padding: 5px 30px;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+    .in button{
+        margin-right: 50px;
     }
 
 
@@ -607,12 +630,11 @@ letter-spacing: 0%;
     }
 
     .imgs2 img {
-        width: 90%;
-        height: auto;
+        width: 410px;
+        height: 410px;
         object-fit: cover;
         border-radius: 20px;
     }
 }
-
 
 
