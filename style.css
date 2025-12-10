@@ -137,14 +137,15 @@ body{
 
 .features-cards {
     display: flex;
-	column-gap: 100px;
+	column-gap: 40px;
 	 justify-content: center;
 	 margin: 50px auto;
 }
 
 .card {
-    width: 300px;
-    padding: 50px;
+    width: 400px;
+    height: 600px;
+    padding: 90px;
     border-radius: 18px;
     background: #ffffff;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
@@ -268,11 +269,11 @@ body{
 }
 .features-cards2 {
     display: flex;
-  column-gap: 20px;
+    column-gap: 50px;
    justify-content: center;
    margin: 50px auto;
-    width: 70%;
-    padding: 2px;
+    width:70%;
+    padding: 5px;
     border-radius: 18px;
     background: #ffffff;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
@@ -281,8 +282,8 @@ body{
 
 
 .card2 img{
-  width: 520px;
-  height: 430px;
+  width:548px;
+  height: 440px;
   background-position: cover;
   align-items: center;
 }
@@ -290,7 +291,7 @@ body{
     padding: 80px 10px;
 }
 .card3 h1{
-    width: 154px;
+    width: 150px;
     height: 48px;
     angle: 0 deg;
     opacity: 1;
@@ -299,13 +300,8 @@ body{
 
 }
 .card3 p{
-    width: 502px;
-height: 150px;
-angle: 0 deg;
-opacity: 1;
-top: 556px;
-left: 745px;
-
+    width: 450px;
+    height: 150px;
 }
 .card3 h3{
     font-family: "DM Sans",sans-serif;
@@ -323,7 +319,7 @@ letter-spacing: 0%;
         padding: 100px 0;
         width: 90%;
         display: flex;
-        column-gap: 20px;
+        column-gap: 50px;
         justify-content: center;
         margin: 50px auto;
 }
@@ -346,25 +342,26 @@ letter-spacing: 0%;
     color: #4B496A;
 }
 .in{
-   margin-top: 50px;
-   margin-right: 60px;
+   align-items: center;
 }
-.in input{
-    text-align: left;
-    padding: 15px 70px;
+.in form input{
+    padding: 20px 70px;
     border-radius: 20px;
      font-family: "DM Sans", sans-serif;
-   border: none;
-  align-items: left;
+     background: #E8E8E8;;
+     color: black;
+    border: none;
+    /*outline: none;*/
 
 }
 .in textarea{
-    text-align: left;
     padding: 15px 70px;
-    border-radius: 20px;
+    border-radius: 10px;
      font-family: "DM Sans", sans-serif;
-   border: none;
-  align-items: left;
+     border: none;
+    /*outline: none;*/
+     background: #E8E8E8;
+     align-items: left;
 
 }
 
@@ -377,7 +374,6 @@ letter-spacing: 0%;
     color: white;
     text-align: left;
      font-family: "DM Sans", sans-serif;
-    border: none;
     margin-left: 100px;
 }
 
@@ -386,15 +382,16 @@ letter-spacing: 0%;
     position: relative;
 }
 .imgs1{
+    border-radius: 30px;
     position: absolute;
-    right: -9.8%;
+    right: -9.9%;
 }
 .imgs2{
-    width: 618.612548828125px;
+    width: 610.612548828125px;
     height: 567.666748046875px;
     border-radius: 30px;
     position: absolute;
-    top: 24%;
+    top: 25%;
 
 }
 
@@ -491,7 +488,7 @@ letter-spacing: 0%;
     .images {
         flex-direction: column;
         width: 100%;
-        padding: 40px 0;
+        padding: 40px 10px;
         align-items: center;
     }
 
@@ -504,7 +501,9 @@ letter-spacing: 0%;
         width: 150px;
     }*/
     .nav-right img {
-        width: 200px;
+        width: 300px;
+        height: auto;
+
     }
     .para1 h1 {
         font-size: 30px;
@@ -526,7 +525,7 @@ letter-spacing: 0%;
 
     .card {
         width: 90%;
-        padding: 70px;
+        padding: 80px;
     }
     
 
@@ -544,7 +543,7 @@ letter-spacing: 0%;
     }
     .features-cards2 {
         flex-wrap: wrap;
-        row-gap: 40px;
+        row-gap: 10px;
     }
      .para2 h1 {
         font-size: 30px;
@@ -557,20 +556,29 @@ letter-spacing: 0%;
         padding: 10px 30px;
     }
 
-    .card1,
+    .card1{
+        width: 90%;
+    }
     .features-cards2 {
         width: 90%;
+        height: auto;
     }
-
+    .card3{
+        padding-top: 50px;
+    }
     .card3 p {
         width: 90%;
-        padding: 0 20px;
+        /*padding: 0 20px;*/
     }
-    .card3 h3{
-        padding: 100px 10px;
+    .card2{
+        height: auto;
+    }
+   .card3 h3{
+        margin-top: 20px;
     }
     .card3 h1{
-        padding: 0 20px;
+       /* margin-top: 50px;
+        padding: 0 20px;*/
     }
     .para3 h1 {
         width: 100%;
@@ -615,26 +623,35 @@ letter-spacing: 0%;
     }
 
     .imgs1 {
-        display: none;
+        width: 50%;
+        height: auto;
+        padding: 20px; 
+        top: 0%;
+        left: 92px;
+    }
+     .imgs1 img{
+        width: 300px;
+        height: auto;
     }
 
      .imgs2 {
         width: 100%;
         position: relative;
         top: 0%;
-        left: 0;
+        left: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
-        /*margin-bottom: 100px;*/
+        margin-bottom: 100px;
     }
 
     .imgs2 img {
-        width: 410px;
-        height: 410px;
+        width: 350px;
+        height: auto;
         object-fit: cover;
         border-radius: 20px;
     }
+
 }
 
 
